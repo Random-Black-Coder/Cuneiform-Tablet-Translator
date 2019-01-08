@@ -5,11 +5,11 @@
 There are thousands of cuneiform tablets stored away in various collections around the world, but so few people skilled enough to translate them. Meaning the vast majority of discovered tablets are just locked away collecting dust. The Cuneiform Digital Library Initiative(CDLI) is one of the few programs attempting to combat this, by providing a public archive of professional cuneiform research, collections, and resources to aide researchers and amatuers about the state of cuneiform language and history.
 
 ## The Solution
-Part 1: Use Deep Learning(DL) and Computer Vision(CV) to develop a model that can detect all of the cuneiform symbols present in an image of cuneiform tablet. 
+Part 1: Use Deep Learning(possibly a variation of YOLO algorithm) to develop a model that can detect all of the cuneiform symbols present in an image of cuneiform tablet. 
 
-Part 2: Use DL and CV to identify to develop a model to identify each symbol.
+Part 2: Use DL to develop a model to identify each symbol.
 
-Part 3: Use an existing api to encode each symbol to C-ATF. 
+Part 3: Use an existing api(cuneify) to encode each symbol to C-ATF. 
 
 Once completed this tool will allow researchers swiftly transliterate tablets and enter them into the CDLI catalogue. Thus making thousands of previously inaccessible tablets available to the greater research community.
 
